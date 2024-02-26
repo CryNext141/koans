@@ -8,21 +8,21 @@ require 'about_strings' #ready
 require 'about_symbols' #ready
 require 'about_arrays' #ready
 require 'about_array_assignment' #ready
-require 'about_objects'
-require 'about_nil'
-require 'about_hashes'
-require 'about_methods'
+require 'about_objects' #ready
+require 'about_nil' #ready
+require 'about_hashes' #ready
+require 'about_methods' #ready
 in_ruby_version("2", "3") do
   require 'about_keyword_arguments'
 end
-require 'about_constants'
+require 'about_constants' #ready
 require 'about_regular_expressions'
 require 'about_control_statements'
 require 'about_triangle_project'
 require 'about_exceptions'
 require 'about_triangle_project_2'
-require 'about_iteration'
-require 'about_blocks'
+require 'about_iteration' #ready
+require 'about_blocks'  #ready
 require 'about_sandwich_code'
 require 'about_scoring_project'
 require 'about_classes'
@@ -31,7 +31,7 @@ require 'about_dice_project'
 require 'about_inheritance'
 require 'about_modules'
 require 'about_scope'
-require 'about_class_methods'
+require 'about_class_methods' #ready
 require 'about_message_passing'
 require 'about_proxy_object_project'
 require 'about_to_str'
