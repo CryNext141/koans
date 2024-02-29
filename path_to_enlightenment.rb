@@ -25,10 +25,10 @@ require 'about_iteration' #ready
 require 'about_blocks'  #ready
 require 'about_sandwich_code'
 require 'about_scoring_project'
-require 'about_classes'
+require 'about_classes' #ready
 require 'about_open_classes'
 require 'about_dice_project'
-require 'about_inheritance'
+require 'about_inheritance' #ready
 require 'about_modules'
 require 'about_scope'
 require 'about_class_methods' #ready
