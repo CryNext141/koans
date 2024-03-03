@@ -54,7 +54,7 @@ EOS
     assert_equal 2, long_string.lines.count
     assert_equal "I", long_string[0,1]
   end
-
+  #sdfghjklfgdhfgjmk
   def test_plus_will_concatenate_two_strings
     string = "Hello, " + "World"
     assert_equal "Hello, World", string

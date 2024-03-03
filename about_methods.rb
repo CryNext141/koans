@@ -76,6 +76,8 @@ class AboutMethods < Neo::Koan
     :another_non_return_value
   end
 
+  #adfsdghfgjkhj
+
   def test_method_with_explicit_return
     assert_equal :return_value, method_with_explicit_return
   end

@@ -57,6 +57,7 @@ class AboutHashes < Neo::Koan
     assert_equal true, hash.keys.include?(:two)
     assert_equal Array, hash.keys.class
   end
+  #dcfsdghfgjh
 
   def test_hash_values
     hash = { :one => "uno", :two => "dos" }

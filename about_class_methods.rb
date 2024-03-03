@@ -62,6 +62,8 @@ class AboutClassMethods < Neo::Koan
     assert_equal (:class_level_wag), Dog2.wag
   end
 
+  #ertyrtuiyu
+
   def test_class_methods_are_independent_of_instance_methods
     fido = Dog2.new
     assert_equal (:instance_level_wag), fido.wag

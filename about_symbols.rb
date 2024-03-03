@@ -52,6 +52,7 @@ class AboutSymbols < Neo::Koan
 
     assert_equal symbol.to_sym, symbol
   end
+  #dfgcxvfgcvhbjn,m
 
   def test_symbols_with_interpolation_can_be_built
     value = "and"

@@ -16,11 +16,11 @@ in_ruby_version("2", "3") do
   require 'about_keyword_arguments'
 end
 require 'about_constants' #ready
-require 'about_regular_expressions'
+require 'about_regular_expressions' #ready
 require 'about_control_statements'
-require 'about_triangle_project'
+require 'about_triangle_project' #ready
 require 'about_exceptions'
-require 'about_triangle_project_2'
+require 'about_triangle_project_2' #ff
 require 'about_iteration' #ready
 require 'about_blocks'  #ready
 require 'about_sandwich_code'
@@ -29,7 +29,7 @@ require 'about_classes' #ready
 require 'about_open_classes'
 require 'about_dice_project'
 require 'about_inheritance' #ready
-require 'about_modules'
+require 'about_modules' #ready
 require 'about_scope'
 require 'about_class_methods' #ready
 require 'about_message_passing'
