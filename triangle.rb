@@ -24,6 +24,7 @@ def triangle(a, b, c)
     :isosceles
   else
     :scalene
+
   end
 end
 
