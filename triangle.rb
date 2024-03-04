@@ -14,12 +14,10 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  # Перевірка на коректність вхідних даних
   if a <= 0 || b <= 0 || c <= 0 || (a + b <= c) || (b + c <= a) || (a + c <= b)
     raise TriangleError, "Invalid triangle sides"
   end
 
-  # Визначення типу трикутника
   if a == b && b == c
     :equilateral
   elsif a == b || b == c || a == c
