@@ -17,23 +17,23 @@ in_ruby_version("2", "3") do
 end
 require 'about_constants' #ready
 require 'about_regular_expressions' #ready
-require 'about_control_statements'
+require 'about_control_statements' #ready
 require 'about_triangle_project' #ready
-require 'about_exceptions'
-require 'about_triangle_project_2' #ff
+require 'about_exceptions' #ready
+require 'about_triangle_project_2' #skip
 require 'about_iteration' #ready
 require 'about_blocks'  #ready
-require 'about_sandwich_code'
-require 'about_scoring_project'
+require 'about_sandwich_code' #ready
+require 'about_scoring_project' #skip
 require 'about_classes' #ready
-require 'about_open_classes'
-require 'about_dice_project'
+require 'about_open_classes' #ready
+require 'about_dice_project' #skip
 require 'about_inheritance' #ready
 require 'about_modules' #ready
-require 'about_scope'
+require 'about_scope' #ready
 require 'about_class_methods' #ready
-require 'about_message_passing'
-require 'about_proxy_object_project'
+require 'about_message_passing' #ready
+require 'about_proxy_object_project' #skip
 require 'about_to_str'
 in_ruby_version("jruby") do
   require 'about_java_interop'
